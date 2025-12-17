@@ -100,7 +100,7 @@ let package = Package(
         .package(url: "https://github.com/airbnb/lottie-ios.git", from: "4.0.0"),
         .package(url: "https://github.com/Alamofire/Alamofire.git", from: "5.0.0"),
         .package(url: "https://github.com/tristanhimmelman/ObjectMapper.git", from: "4.0.0"),
-        .package(url: "https://github.com/apple/swift-syntax.git", from: "602.0.0")
+        .package(url: "https://github.com/apple/swift-syntax.git", "600.0.0"..<"603.0.0")
     ],
     targets: [
         .target(
